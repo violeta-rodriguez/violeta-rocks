@@ -1,0 +1,139 @@
+/* FONTS
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+body {
+  background: #E7DFDD url(../img/bg.jpg) no-repeat center top;
+}
+.logo {
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+@media (min-width: 992px) {
+  .work {
+    background-color:rgba(255,255,255,0.4);
+    max-width: 1130px;
+    margin-bottom: 50px;
+  }
+  .tag {
+    color: #4E4E6E;
+    text-align: left;
+  }
+  .tag .title  {
+    padding-top: 130px;
+  }
+  .tag.col-md-push-9 {
+    text-align: left;
+  }
+}
+.work {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.shot {
+ padding: 0!important;
+}
+.tag {
+  color: #4E4E6E;
+  padding:0 30px 20px 30px;
+
+}
+.title {
+  color: #313140;
+  font-family: 'Oswald', sans-serif;
+  font-size: 26px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+.subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size:22px;
+  color:#B6B6CB;
+}
+.tag .description {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+.btn-primary {
+  background: #9083C8;
+  border: #9083C8;
+  color: #FFF;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 17px 45px 15px;
+  text-transform: uppercase;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background: #8A8AAC;
+  border: #8A8AAC;
+  color: #FFF;
+}
+
+
+/* work */
+.work-shot {
+  margin-bottom: 70px;
+  text-align:center;
+}
+.work-shot header {
+  padding-bottom: 30px
+}
+.work-shot h1,
+.work-shot h3 {
+  padding: 0;
+  margin: 0;
+}
+.next-work {
+  margin-bottom: 20px;
+}
+
+/* FadeIn effect -------------------------------*/
+
+.fadeInBlock {
+    opacity:0;
+}
+
+/* make keyframes that tell the start state and the end state of our object */
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  /* make things invisible upon start */
+  opacity:0;
+
+  /* call our keyframe named fadeIn, use animation ease-in and repeat it only 1 time */
+  -webkit-animation:fadeIn ease-in 1; 
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -webkit-animation-fill-mode:forwards;  
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:.7s;
+  -moz-animation-duration:.7s;
+  animation-duration:.7s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay:1.2s;
+  animation-delay: 1.2s;
+}
