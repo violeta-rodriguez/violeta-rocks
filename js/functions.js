@@ -31,7 +31,7 @@ $(function() {
           
             /* Adjust the "200" to either have a delay or that the content starts 
             fading a bit before you reach it  */
-            bottom_of_window = bottom_of_window + 200;  
+            bottom_of_window = bottom_of_window + 300;
             if( bottom_of_window > bottom_of_object ){
                 $(this).addClass('fade-in');  
             }

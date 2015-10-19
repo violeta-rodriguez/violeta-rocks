@@ -5,6 +5,7 @@ font-family: 'Raleway', sans-serif;
 
 body {
   background: #E7DFDD url(../img/bg.jpg) no-repeat center top;
+  overflow-y: scroll;
 }
 .logo {
   margin-top: 30px;
@@ -37,7 +38,6 @@ body {
 .tag {
   color: #4E4E6E;
   padding:0 30px 20px 30px;
-
 }
 .title {
   color: #313140;
@@ -72,8 +72,8 @@ body {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  background: #8A8AAC;
-  border: #8A8AAC;
+  background: #7C6BBE;
+  border: #7C6BBE;
   color: #FFF;
 }
 
