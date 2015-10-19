@@ -13,9 +13,13 @@ app.config(function ($routeProvider) {
       controller: 'WorksController',
       templateUrl: 'views/prettylist.html'
     })
-      .when('/ssa', {
+     .when('/ataraxia', {
       controller: 'WorksController',
-      templateUrl: 'views/ssa.html'
+      templateUrl: 'views/ataraxia.html'
+    })
+      .when('/santiago', {
+      controller: 'WorksController',
+      templateUrl: 'views/santiago.html'
     }) 
       .when('/expertos', {
       controller: 'WorksController',

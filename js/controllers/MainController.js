@@ -10,12 +10,18 @@ app.controller('MainController', ['$scope', function($scope) {
     description: 'Proyecto personal de notificaciones de productos de belleza en promoción',
     img: 'img/shot-pretty.jpg',
     link: '#/prettylist'
- } 
+ }
+ $scope.ataraxia = {
+    title: 'Ataraxia',
+    description: 'Startup para el estudio y tratamiento de patologías mentales crónicas',
+    img: 'img/shot-ataraxia.jpg',
+    link: '#/ataraxia'
+ }
   $scope.santiago = {
     title: 'Santiago se Atreve',
     description: 'Portal web para la comunidad emprendedora de Santiago',
     img: 'img/shot-ssa.jpg',
-    link: '#/ssa'
+    link: '#/santiago'
  }
   $scope.expertos = {
     title: 'Expertos en color',
